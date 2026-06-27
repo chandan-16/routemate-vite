@@ -1,7 +1,9 @@
-const Footer = () => {
+import { Link } from "react-router-dom"
+
+export const Footer = () => {
   return (
-    <div>Footer</div>
+    <footer className="component">
+      <Link to="/">2030 Routemate</Link>  
+    </footer>
   )
 }
-
-export default Footer
